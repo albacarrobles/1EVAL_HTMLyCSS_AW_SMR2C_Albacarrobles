@@ -9,23 +9,32 @@
     <form action="ejemplo2.php" method="get">
         <p>Nombre: <input type="text" name="nombre" required>
         </p>
+
         <p>Apellidos:
             <input type="text" name="apellidos" size="40"
             placeholder="Escriba sus dos apellidos">
         </p>
+
+        <p>Año de nacimiento:
+            <input type="number" name="nacido" min="1900">
+        </p>
+
         <p>Nacionalidad:
             <input type="text" name="nacionalidad" size="20">
         </p>
+
         <p>Sexo:
             <input type="radio" name="hm" value="h" required>
         Hombre
             <input type="radio" name="hm" value="required">
         Mujer
         </p>
+
         <p>Edad:
             <input type="radio" name="edad" value="menor"> Menor
             <input type="radio" name="edad" value="adulto" required> Adulto
         </p>
+        
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Borrar">

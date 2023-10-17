@@ -1,3 +1,12 @@
+/*Autor: alba */
+
+body{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
 p{
-    color:blue;
+    color: blue;
 }

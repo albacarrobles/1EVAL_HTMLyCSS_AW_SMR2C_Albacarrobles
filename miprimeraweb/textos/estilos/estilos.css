@@ -1,0 +1,9 @@
+
+p{font-family: Verdana, Geneva, Tahoma, sans-serif;
+color:red
+}
+
+@font-face {
+    font-family: "prueba";
+    src: url("");
+}

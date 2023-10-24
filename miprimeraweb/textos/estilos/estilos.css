@@ -1,9 +1,12 @@
 
-p{font-family: Verdana, Geneva, Tahoma, sans-serif;
-color:red
+@import url("https://fonts.googleapis.com/css?family=Mystery+Quest");
+@font-face {
+    font-family: "Mystery Quest";
+    src: url("../fuentes/mystery-quest.ttf");
 }
 
-@font-face {
-    font-family: "prueba";
-    src: url("");
+p{
+    font-family: "Mystery Quest";
+    font-size: 100%;
 }
+    

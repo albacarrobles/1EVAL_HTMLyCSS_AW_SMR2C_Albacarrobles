@@ -1,16 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Listas</title>
+    <style>
+        ul {
+            list-style-type: square;
+        }
+
+        ol.carita {
+            list-style-image: url("imagenes/smiley.png");
+        }
+
+        ol.caballo{
+            list-style-image: url("imagenes/caballo\ \(3\).svg");
+            list-style-position: inside;
+            background-color: lightpink;
+        }
+
+        li.posiciones{
+            list-style-position: outside;
+            background-color: lightblue;
+        }
+
+        li.prueba{
+            background-color: chartreuse;
+            list-style-position: outside;
+        }
+    </style>
 </head>
+
 <body>
     <h1>Ejercicio listas</h1>
-    <ul style="list-style-type: square;">
+    <h2>Lista no ordenada</h2>
+    <ul>
         <li>CSS</li>
         <li>HTML</li>
         <li>Javascript</li>
     </ul>
+    <h2>Lista ordenada</h2>
+    <ol class="caballo">
+        <li class="posiciones">Emilio</li>
+        <li class="posiciones">Axel</li>
+        <li class="posiciones">Jorge</li>
+        <li class="posiciones">Javi</li>
+        <li class="posiciones">Alba</li>
+    </ol>
+    <h2>Anidamiento de listas</h2>
+    <ul>
+        <li class="prueba">CSS</li>
+        <li class="prueba">HTML</li>
+        <li class="prueba">Javascript</li>
+        <ol class="carita">
+            <li>Emilio</li>
+            <li>Axel</li>
+            <li>Jorge</li>
+            <li>Javi</li>
+            <li>Alba</li>
+        </ol>
+    </ul>
 </body>
+
 </html>

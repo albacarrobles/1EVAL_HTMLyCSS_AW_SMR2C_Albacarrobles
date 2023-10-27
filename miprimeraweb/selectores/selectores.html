@@ -1,0 +1,70 @@
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Selectores de descendientes: E F (1). Selectores. CSS. Páginas web HTML y hojas de estilo CSS. Bartolomé Sintes Marco. www.mclibre.org</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    div {
+      border: red 3px solid;
+      margin: 10px;
+      padding: 10px;
+    }
+
+    div + p {
+      color: red;
+    }
+
+    a:link{
+      color:blueviolet;
+    }
+
+    a:visited{
+      color:aqua;
+    }
+
+    input:active{
+      background-color: green;
+    }
+
+  </style>
+</head>
+
+<body>
+  <p>Esto es un párrafo &lt;p&gt;.</p>
+
+  <div>
+    <p>Esto es el primer enlace <a href= "https://es.wikipedia.org/wiki/Enlace_(qu%C3%ADmica)"></p>
+
+    <ul>
+      <li>Esto es una lista
+        <p>Esto es un párrafo &lt;p&gt; dentro de una lista</p>
+      </li>
+    </ul>
+
+    <p>Esto es otro párrafo &lt;p&gt;.</p>
+
+    <address>Esto no es un párrafo &lt;p&gt;, sino una dirección &lt;address&gt;.</address>
+  </div>
+
+  <p>Esto es otro párrafo &lt;p&gt;.</p>
+
+  <div>
+    <p>Esto es un párrafo &lt;p&gt;.</p>
+
+    <ul>
+      <li>Esto es una lista
+        <p>Esto es un párrafo &lt;p&gt; dentro de una lista</p>
+      </li>
+    </ul>
+
+    <p>Esto es otro párrafo &lt;p&gt;.</p>
+
+    <address>Esto no es un párrafo &lt;p&gt;, sino una dirección &lt;address&gt;.</address>
+  </div>
+
+  <form action="procesar.php" method="get">
+    <input type="button" value="Hacer clic">
+
+  </form>
+</body>
+</html>

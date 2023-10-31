@@ -1,0 +1,9 @@
+thead>tr, tfoot>tr{
+    background-color:brown;
+    color: white;
+    text-transform: uppercase;
+}
+
+td:last-child{
+    font-weight: bolder;
+}

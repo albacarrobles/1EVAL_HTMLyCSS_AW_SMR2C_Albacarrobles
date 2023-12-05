@@ -1,119 +1,156 @@
-
-
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+ /*parte del nav*/
 body {
-    margin: 0%;
-    margin-left: 15%;
-    margin-right: 15%;
+  margin: 0%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
-* {
-
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-         box-sizing: border-box;
-  }
-
-  header {
-    position: relative;
-    text-align: center;
-
+nav div {
+  float: left;
+  padding: 10px;
+  color: deeppink;
+  font-weight: bold;
+  font-size: 20px;
 }
- .imagenbirras {
-    opacity: 0.7;
-    
-    background-size: cover;
-    
- }
- nav div {
-    float: left;
-    padding: 10px;
-
- }
-
- .imagenfondo {
-    width: 100%;
- }
-
-
-
- .compra {
-    background-color: blueviolet;
-    color: antiquewhite;
-    border-radius: 20px;
-    cursor: pointer;
- }
 
 .barranav{
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    background-color: blue;
-    color: aliceblue;
-    float: left;
-    width: 100%;
-    padding: 10px;
- }
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color:darkblue;
+  color: aliceblue;
+  float: left;
+  width: 100%;
+  padding: 10px;
+}
 
- main h1 {
-    color: blue;
-    text-align: center;
- }
+/*segunda parte del body*/
+header {
+  position: relative;
+  text-align: center;
+}
 
+.imagenbirras {
+  opacity: 0.7;
+  background-size: cover;
+}
+ 
+.imagenfondo {
+  width: 100%;
+}
 
-  .seguircomprando {
-    background-color: blue;
-    text-align: center;
-    color: darksalmon;
-    width: 5cm;
-    position: absolute;
-    right: 30%;
-    top: 25%;
+.seguircomprando {
+  background-color:darkblue;
+  text-align: center;
+  color:deeppink;
+  width: 5cm;
+  position: absolute;
+  right: 10%;
+  top: 35%;
+  border-radius: 20px;
+}
 
-    border-radius: 20px;
-  }
-  hr {
-    width: 60%;
-  }
+.compra {
+  background-color:deeppink;
+  color: antiquewhite;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 95px;
+  height: 35px;
+  margin-left: 45px;
+}
+
+main h1 {
+  color:darkblue;
+  text-align: center;
+}
+
+hr {
+  width: 30%;
+  border: 1px solid deeppink;
+}
+
+.contlogo {
+  margin-left: 2cm;
+  text-align: center;
+  color: darkblue;
+}
+
+.logo_ow {
+  float: left;
+  margin: 40px;
+}
 
 .articulo {
-    margin-top: 20px;
-    width: 50%;
-    margin-left: 4cm;
-    text-align: justify;
-    line-height: 25px;
-
+  margin-top: 20px;
+  width: 50%;
+  margin-left: 4cm;
+  text-align: justify;
+  line-height: 25px;
 }
 
-p::first-letter {
-    color: chocolate;
-    float:left;
-    font-size: 2em;
-    border-right: 1px solid blue;
+.imagentexto p::first-letter {
+  color: chocolate;
+  float:left;
+  font-size: 2em;
+  border-right: 1px solid blue;
+  border-bottom: 1px solid blue;
 }
- .imagentexto {
-   margin-left: 18%;
 
- }
-  .logo_ow {
-    float: left;
-    margin: 100px;
+.imagentexto {
+  margin-left: 18%;
+}
 
-  }
+.boteow {
+  float: left;
+  margin-right: 5%; 
+}
 
-  .contlogo {
-    margin-left: 3cm;
-  }
-  .boteow {
-    float: left;
-    margin-right: 5%;
-    
-  }
 .galeria {
-    float: left;
-    margin-top: 3cm;
+  float: left;
+  margin-top: 3cm;
 }
 
 .galeria img {
     width: 180px;
 }
 
+/*pie de página*/
+footer {
+  background-color: #121867;
+  clear: both;
+  color: rgb(243, 55, 132);
+  font-weight: bolder;
+  font-size: 1em;
+  margin-top: 20px;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+div.address {
+  float:left;
+  width: 20%;
+}
+
+div.enmedio {
+  float: left;
+  text-align: center;
+  width: 60%;
+}
+
+div.section {
+  float: left;
+  text-align: center;
+  width: 20%;
+}
+
+div.social img{
+  width: 20px;
+  height: 20px;
+  float:right:
+}
